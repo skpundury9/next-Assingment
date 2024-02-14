@@ -1,0 +1,243 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: "Playfair Display", serif;
+
+  font-family: "Ubuntu", sans-serif; */
+header{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-left: 5%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.logo{
+    width: 20%;
+  color: #000000;
+}
+    
+nav{
+    width: 50%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:end;
+}
+header nav ul li{
+    margin-left: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #626262;
+ text-transform: uppercase;
+ font-family: "Playfair Display", serif;
+}
+.bannar_section{
+    width: 90%;
+    justify-content: space-between;
+}
+.bannar_section img{
+    margin-left: 5%;
+    width: 100%;
+}
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.photodiary h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+}
+.photodiary h1{
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+}
+.photodiary p{
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    line-height: 25px;
+}
+.photodiary h6{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+}
+.feature_section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature_item{
+    width: 48%;
+    margin-bottom: 70px;
+
+
+}
+.feature_item img{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.feature_item h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.feature_item h1{
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+
+}
+.feature_item p{
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    line-height: 25px;
+   
+}
+.feature_item h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.feature_item h1{
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+
+}
+.feature_item p{
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    line-height: 25px;
+}
+.newslater{
+   background-color: #f0f0f0;
+    padding: 70px 0;
+    margin-bottom: 70px;
+}
+ .content{
+    width: 28%;
+    margin: auto;
+ }
+ .content h2{
+    color: #626262;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform:capitalize;
+    margin-bottom: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  .content input{
+    border: none;
+    border-bottom: 1px solid#000;
+    background: transparent;
+    width: 100%;
+  }
+  .content input:focus{
+    outline: none;
+  }
+  .content input ::placeholder{
+    font-family: "Playfair Display", serif;
+    color: #626262;
+  }
+ .Loadmore{
+   text-align: center;
+    margin: 50px 0;
+ }
+
+ .Loadmore button{
+    background: transparent;
+    border: none;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 20px 30px;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+ }
+footer{
+    background: #f0f0f0;
+    padding: 30px 0;
+    }
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+   
+}
+.terms ul{
+    list-style: none;
+    display: flex;
+}
+.terms ul li{
+    margin-right: 15px;
+}
+.terms ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #626262;
+}
+.social_icon{
+    
+}
+.social_icon ul{
+    display: flex;
+    
+
+}
+.social_icon ul li{
+    margin-left: 15px;
+    list-style: none;
+    text-transform: capitalize;
+
+}
+.social_icon ul li a{
+    text-decoration: none;
+    color: #626262;
+
+}
